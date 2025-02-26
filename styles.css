@@ -1,3 +1,117 @@
-body{
-    margin: 1;
+/* Общие стили для всей страницы */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Стили для шапки */
+header {
+    width: 1440px;
+    height: 71px;
+    background-color: #BDBBBA;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-left: 138px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.navigation ul li a[href="index.html"] {
+    font-weight: 600;
+}
+
+/* Стили для основного контента */
+.main-content {
+    position: relative;
+    top: 71px;
+    padding: 111px 138px;
+}
+
+.main-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 86px;
+    letter-spacing: 0.1em;
+    color: #504D4D;
+}
+
+.main-content h1 u {
+    text-decoration: underline;
+}
+
+.projects {
+    margin-top: 131px;
+}
+
+.projects h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.projects p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+/* Стили для футера */
+footer {
+    width: 1440px;
+    height: 1024px;
+    background-color: #F4F4F2;
+    position: relative;
+    top: 71px;
+}
+
+.footer-content {
+    position: absolute;
+    top: 958px;
+    left: 138px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 32px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.footer-content span {
+    margin-right: 454px;
 }
